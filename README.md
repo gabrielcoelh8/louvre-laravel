@@ -7,6 +7,31 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+## Project
+Instructions for open this project in localhost.
+
+Execute the following commands in terminal.
+- update composer:
+```
+composer update
+```
+- recreate .env files:
+```
+copy .env.example .env
+```
+Now configure the DB with your informations.
+
+- run node server:
+```
+npm run dev
+```
+
+- run artisan server:
+```
+php artisan serve
+```
+
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
