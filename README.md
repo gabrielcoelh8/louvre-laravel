@@ -15,16 +15,11 @@ Execute the following commands in terminal.
 ```
 composer update
 ```
-- recreate .env files:
+- if needed, recreate .env files:
 ```
 copy .env.example .env
 ```
-Now configure the DB with your informations.
-
-- run node server:
-```
-npm run dev
-```
+Now configure the .env with your database config.
 
 - run artisan server:
 ```

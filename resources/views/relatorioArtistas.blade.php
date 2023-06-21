@@ -23,6 +23,10 @@
         font-size: 1.5rem;
         text-align: center;
       }
+      img {
+        width: fit-content;
+        height: 100px;
+      }
     </style>
   </head>
   <body>
@@ -33,6 +37,7 @@
           <th>ID</th>
           <th>Nome</th>
           <th>Data de nascimento</th>
+          <th></th>
         </tr>
       </thead>
       <tbody>
@@ -41,6 +46,7 @@
             <td>{{$artista->id}}</td>
             <td>{{$artista->nome}}</td>
             <td>{{$artista->data_nascimento}}</td>
+            <td><img src="{{ storage_path('app/public/upload/artistas/'.$artista->url_imagem) }}"></td>
           </tr>
         @endforeach
       </tbody>
